@@ -18,4 +18,4 @@ Via Bower:
 
 ## Docs
 
-To follow. For now, see the [tests](blob/master/test/trilby.spec.js).
+To follow. For now, see the [tests](blob/master/test/trilby.spec.js) and the [annotated source](blob/master/trilby.js).

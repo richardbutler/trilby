@@ -2,7 +2,7 @@
  * trilby.js
  *
  * @author      Richard Butler <rich@smartcasual.io>
- * @license     MIT <https://github.com/richardbutler/trilby/LICENSE>
+ * @license     MIT <https://github.com/richardbutler/trilby/blob/master/LICENSE>
  * @version     0.1.0
  */
 

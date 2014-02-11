@@ -6,8 +6,11 @@ var gulp    = require('gulp'),
 
 gulp.task('scripts', function() {
     return gulp.src('trilby.js')
-        .pipe(uglify())
         .pipe(rename('trilby.min.js'))
+        .pipe(uglify({
+            outSourceMap: true,
+            preserveComments: 'some'
+        }))
         .pipe(gulp.dest('.'));
 });
 
@@ -18,7 +21,7 @@ gulp.task('tests', function() {
 
 gulp.task('docs', function() {
     gulp.src("./trilby.js")
-        .pipe(jsdoc('./docs'))
+        .pipe(jsdoc('./docs'));
 });
 
 gulp.task('default', ['tests', 'scripts', 'docs']);
