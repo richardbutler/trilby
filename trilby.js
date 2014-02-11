@@ -18,7 +18,7 @@
         module.exports = factory();
     } else {
         // Browser globals (root is window)
-        root.facet = factory();
+        root.trilby = factory();
     }
 }(this, function() {
     'use strict';
