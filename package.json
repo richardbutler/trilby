@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "main": "./trilby.js",
   "author": "Richard Butler <rich@smartcasual.io>",
+  "keywords": ["util", "collection"],
   "repository": {
     "type": "git",
     "url": "https://github.com/richardbutler/trilby.git"
@@ -15,7 +16,6 @@
   ],
   "devDependencies": {
     "chai-stack": "~1.3.1",
-    "lodash": "~2.4.1",
     "gulp": "~3.5.2",
     "gulp-uglify": "~0.2.1",
     "gulp-rename": "~0.2.2",
